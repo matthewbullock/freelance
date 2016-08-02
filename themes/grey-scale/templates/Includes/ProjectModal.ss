@@ -14,20 +14,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <div id="project-details-carousel" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <img src="$ThemeDir/img/pikadish/pikadishweb/mealdetail.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="$ThemeDir/img/pikadish/pikadishweb/pikadish.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="$ThemeDir/img/pikadish/pikadishweb/shoppinglist.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="$ThemeDir/img/pikadish/pikadishweb/weekplanner.jpg" alt="">
-                            </div>
-                        </div>
+                     
                     </div>
                     <div class="col-md-10 col-md-offset-1">
                         <h3>Project Description:</h3>

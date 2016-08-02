@@ -1,4 +1,4 @@
-### SILVERSTRIPE START ###
+q### SILVERSTRIPE START ###
 # Deny access to templates (but allow from localhost)
 <Files *.ss>
 	Order deny,allow
