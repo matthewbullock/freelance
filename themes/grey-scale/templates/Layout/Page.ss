@@ -1,4 +1,3 @@
-$Form
 
 
       <!--   <nav class="navbar navbar-dark navbar-fixed-top" role="navigation">

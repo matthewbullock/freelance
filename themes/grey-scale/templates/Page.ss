@@ -5,7 +5,7 @@
 
     <% base_tag %>
     $MetaTags(false)
-    <title>test</title>
+    <title>$Title</title>
 
 
 
