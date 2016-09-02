@@ -7,7 +7,7 @@
             <p data-scrollreveal="enter right move 200px over 1.5s">$Section_Two_Content</p>
               $CarouselSlides
             <p data-scrollreveal="enter right move 200px over 1.5s">Connect with me
-                            <span class="page-scroll"><a href="#contact-1">now</a>
+                            <span class="page-scroll"><a href="#contact">now</a>
                             </span> if you're ready to get started!</p>
             <ul class="list-inline">
                 <li>

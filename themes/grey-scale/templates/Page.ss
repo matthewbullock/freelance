@@ -50,11 +50,15 @@
   
 
     <!-- Core JavaScript Files -->
-    <script src="$ThemeDir/js/jquery-1.10.2.js"></script>
    
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   
+        crossorigin="anonymous">
+    </script>
  
     <script src="$ThemeDir/js/bootstrap/bootstrap.min.js"></script>
     <script src="$ThemeDir/js/modernizr.custom.js"></script>
+
 
     <!-- Plugin JavaScript Files -->
     <script src="$ThemeDir/js/plugins/jquery.easing/jquery.easing.1.3.js"></script>

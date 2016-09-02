@@ -1418,17 +1418,21 @@ a.light-text:focus {
   background: #e74c3c !important;
   color: #f4f5f7 !important;
 }
-.portfolio-1 .portfolio-item {
-  margin: 0 0 15px;
+.project-img {
+  height: 250px;
+  width: 350px;
+}
+.portfolio-item {
+  /*margin: 0 0 15px;*/
   right: 0;
 }
-.portfolio-1 .portfolio-item .portfolio-link {
+.portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-.portfolio-1 .portfolio-item .portfolio-link .caption {
+.portfolio-item .portfolio-link .caption {
   background: rgba(62, 68, 77, 0.9);
   position: absolute;
   width: 100%;
@@ -1438,10 +1442,10 @@ a.light-text:focus {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-.portfolio-1 .portfolio-item .portfolio-link .caption:hover {
+.portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
-.portfolio-1 .portfolio-item .portfolio-link .caption .caption-content {
+.portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -1451,16 +1455,16 @@ a.light-text:focus {
   margin-top: -12px;
   color: #f4f5f7;
 }
-.portfolio-1 .portfolio-item .portfolio-link .caption .caption-content i {
+.portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-.portfolio-1 .portfolio-item .portfolio-link .caption .caption-content h3,
-.portfolio-1 .portfolio-item .portfolio-link .caption .caption-content h4 {
+.portfolio-item .portfolio-link .caption .caption-content h3,
+.portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
 @media (min-width: 767px) {
-  .portfolio-1 .portfolio-item {
-    margin: 0 0 30px;
+  .portfolio-item {
+    /*margin: 0 0 30px;*/
   }
 }
 .portfolio-modal .modal-content {

@@ -16,6 +16,6 @@
 <section id="pricing" class="pricing-1">
     <% include SectionSix %>
 </section>
-<section class="contact-1 bg-parallax-dark" style="background-image: url($ThemeDir/img/wallpaper5.jpg); padding: 0;">
+<section id="contact" class="contact-1 bg-parallax-dark" style="background-image: url($ThemeDir/img/wallpaper5.jpg); padding: 0;">
     <% include SectionSeven %>
 </section>
