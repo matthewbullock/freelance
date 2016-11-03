@@ -790,7 +790,7 @@ JS
 			Session::set('userformssubmission'. $this->ID, $submittedForm->ID);
 		}
 
-		return $this->redirect($this->Link('finished') . $referrer . $this->config()->finished_anchor);
+		return $this->redirect($this->Link('finished') . $referrer . '#contact');
 	}
 
 	/**
