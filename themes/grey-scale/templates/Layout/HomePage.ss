@@ -19,3 +19,4 @@
 <section id="contact" class="contact-1 bg-parallax-dark" style="background-image: url($ThemeDir/img/wallpaper5.jpg); padding: 0;">
     <% include SectionSeven %>
 </section>
+<% include Footer %>

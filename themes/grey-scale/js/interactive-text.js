@@ -57,8 +57,8 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'I am a Developer',
-  'and a Designer.',
+  'Web Developer',
+  'Web Designer',
   'I will build you',
   'the best website',
   'for your buisness.'
