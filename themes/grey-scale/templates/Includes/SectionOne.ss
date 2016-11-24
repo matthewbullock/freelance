@@ -2,12 +2,9 @@
     <div class="overlay"></div>
     <div class="intro-body">
         <div class="container">
-            <div class="intro-welcome" data-scrollreveal="enter left over 1.5s">$Section_One_Intro_Heading</div>
-            <br>
             <div class="intro-welcome" id="homepage-title" data-scrollreveal="enter right over 1.5s">
-                $Section_One_Prime_Heading_Primary_Colour<br><span class="text-primary" style="color: #$BgColor;">$Section_One_Prime_Heading_Secondary_Colour</span>
+                $Section_One_Prime_Heading_Primary_Colour
             </div>
-            <hr class="light">
             <div class="carousel slide" data-scrollreveal="enter bottom over 1.5s" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">

@@ -45,9 +45,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <div id="wrapper">
         $Layout
-        <% include Footer %>
     </div>
-  
 
     <!-- Core JavaScript Files -->
    
@@ -81,11 +79,12 @@
     <script>
     $(".video-bg").wallpaper({
         source: {
-            mp4: "$ThemeDir/mp4/code.mp4",
+            mp4: "$ThemeDir/mp4/test2.mp4",
             // poster: "$ThemeDir/img/demo-bgs/video-bg-fallback.jpg"
         }
     });
     </script>
+
 </body>
 
 </html>

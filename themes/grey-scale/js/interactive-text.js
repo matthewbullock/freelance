@@ -57,11 +57,8 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'I am a Developer',
-  'and a Designer.',
-  'I will build you',
-  'the best website',
-  'for your buisness.'
+  'Web Developer',
+  'Web Designer'
 ]
 
 const el = document.querySelector('.moving-text')
