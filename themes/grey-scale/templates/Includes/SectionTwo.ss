@@ -5,7 +5,6 @@
             <img src="$Profile_Image.URL" class="img-circle img-responsive img-centered dark-faded-border" id="about-img" alt="">
             <hr class="primary" style="border-top:6px solid #$BgColor;">
             <p data-scrollreveal="enter right move 200px over 1.5s">$Section_Two_Content</p>
-              $CarouselSlides
             <p data-scrollreveal="enter right move 200px over 1.5s">Connect with me
                             <span class="page-scroll"><a href="#contact">now</a>
                             </span> if you're ready to get started!</p>

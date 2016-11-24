@@ -39,7 +39,7 @@ $form      <!--   <nav class="navbar navbar-dark navbar-fixed-top" role="navigat
              
             </div>
           
-        </nav> -->
+        </nav> 
 
 
         <header class="video-bg" data-stellar-background-ratio="0.5">
