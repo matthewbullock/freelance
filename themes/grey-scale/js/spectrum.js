@@ -135,28 +135,22 @@ jQuery(document).ready(function() {
 });
 
 // Functions to run on window load
-$(window).load(function() {
-
-    $('.action').addClass('btn btn-default');
-
-    // Isotope Plugin for Portfolio Filtering
-    // init Isotope
-    var $container = $('.isotope').isotope({
-        itemSelector: '.portfolio-item'
-    });
-    $('#filters').on('click', 'button', function() {
-        var filterValue = $(this).attr('data-filter');
-        $container.isotope({
-            filter: filterValue
-        });
-    });
-    // change is-checked class on buttons
-    $('#filters').each(function(i, buttonGroup) {
-        var $buttonGroup = $(buttonGroup);
-        $buttonGroup.on('click', 'button', function() {
-            $buttonGroup.find('.active').removeClass('active');
-            $(this).addClass('active');
-        });
-    });
-
+$(document).ready(function(e) {
+       var index=0;
+    $(document).scroll(function(){
+        var top = $('#skills').height()-$(window).scrollTop();
+        if(top<-1100){
+            if(index==0){   
+                $('.chart').easyPieChart({
+                    easing: 'easeOutBounce',
+                    onStep: function(from, to, percent) {
+                        $(this.el).find('.percent').text(Math.round(percent));
+                    }
+                });
+            }
+        index++;
+        }
+    })
 });
+
+

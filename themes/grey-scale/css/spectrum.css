@@ -160,7 +160,7 @@ p {
 hr.primary,
 hr.light,
 hr.dark {
-  max-width: 38%;
+  max-width: 180px;
   margin: 25px auto;
   border-bottom: none;
 }
@@ -3003,80 +3003,37 @@ h1 {
   font-size: 72px;
 }
 
-.skills {
-  padding: 70px 20px;
-}
-.skills .content .development-wrapper .development-title {
-  color: #3c3c3c;
-  font-size: 2em;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.skills .content .development-wrapper .skills-bar-container {
+.chart {
   position: relative;
-  width: 100%;
-  list-style-type: none;
-}
-.skills .content .development-wrapper .skills-bar-container li {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.skills .content .development-wrapper .skills-bar-container li .progressbar-title {
-  color: #3c3c3c;
-  margin-bottom: 5px;
-}
-.skills .content .development-wrapper .skills-bar-container li .progressbar-title h3 {
   display: inline-block;
-}
-.skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent {
-  position: absolute;
-  right: 20px;
-  font-size: 1.1em;
-}
-.skills .content .development-wrapper .skills-bar-container li .bar-container {
-  background: #ececec;
-  position: relative;
-  width: 100%;
-  height: 10px;
-}
-.skills .content .development-wrapper .skills-bar-container li .bar-container .progressbar {
-  background: #34495e;
-  position: absolute;
-  width: 0%;
-  height: 100%;
-}
-.skills .content .tools-knowledge-wrapper {
-  width: 100%;
-}
-.skills .content .tools-knowledge-wrapper .tools-wrapper,
-.skills .content .tools-knowledge-wrapper .knowledge-wrapper {
-  position: relative;
-  padding: 20px 0;
-  widht: 100%;
+  width: 152px;
+  height: 152px;
+  margin-bottom: 26px;
   text-align: center;
 }
-.skills .content .tools-knowledge-wrapper .tools-wrapper .title,
-.skills .content .tools-knowledge-wrapper .knowledge-wrapper .title {
-  color: #3c3c3c;
-  font-size: 2em;
-  margin-bottom: 10px;
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.skills .content .tools-knowledge-wrapper .tools-wrapper ul,
-.skills .content .tools-knowledge-wrapper .knowledge-wrapper ul {
-  list-style-type: none;
-  margin-left: 40px;
+.skill h4 {
+  margin-bottom: 35px;
 }
-.skills .content .tools-knowledge-wrapper .tools-wrapper ul li,
-.skills .content .tools-knowledge-wrapper .knowledge-wrapper ul li {
-  color: #444;
-  font-weight: bold;
-  font-size: 1.1em;
-  text-align: left;
+.percent {
+  display: inline-block;
+  font-size: 21px;
+  color: #121d1f;
+  line-height: 152px;
+  z-index: 2;
 }
-.skills .content .tools-knowledge-wrapper .tools-wrapper ul li i,
-.skills .content .tools-knowledge-wrapper .knowledge-wrapper ul li i {
-  color: #27ae60;
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
 }
+
+
+
 
 #glitchy {
   color: black;
@@ -3401,6 +3358,7 @@ h1 {
     text-shadow: -1px 0 0 blue, 1px 0 0 lime;
   }
 }
+
 
 
 

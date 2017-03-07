@@ -5,14 +5,8 @@
             <div class="intro-welcome" id="homepage-title" data-scrollreveal="enter right over 1.5s">
                 $Section_One_Prime_Heading_Primary_Colour
             </div>
-            <div class="carousel slide" data-scrollreveal="enter bottom over 1.5s" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="container">
-                            <div class="moving-text"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="intro-subtitle">
+                <span class="moving-text"></span>
             </div>
             <div class="page-scroll" data-scrollreveal="enter bottom after .6s">
                 <a href="#about" class="btn btn-scroll-light sink">

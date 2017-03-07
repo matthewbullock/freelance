@@ -42,6 +42,7 @@
     <![endif]-->
 
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <div id="wrapper">
         $Layout
@@ -61,7 +62,8 @@
     <!-- Plugin JavaScript Files -->
     <script src="$ThemeDir/js/plugins/jquery.easing/jquery.easing.1.3.js"></script>
     <script src="$ThemeDir/js/interactive-text.js"></script>
-       <script src="$ThemeDir/js/plugins/jquery.fitvids/jquery.fitvids.js"></script>
+    <script src="$ThemeDir/js/plugins/jquery.fitvids/jquery.fitvids.js"></script>
+    <script src="$ThemeDir/js/plugins/Scrollify/jquery.scrollify.js"></script>
     <script src="$ThemeDir/js/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.min.js"></script>
     <script src="$ThemeDir/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="$ThemeDir/js/plugins/jquery.tubular/jquery.tubular.1.0.js"></script>
@@ -71,6 +73,7 @@
     <script src="$ThemeDir/js/plugins/SmoothScroll/SmoothScroll.js"></script>
     <script src="$ThemeDir/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js"></script>
     <script src="$ThemeDir/js/contact_me.js"></script>
+   
     <script src="$ThemeDir/js/plugins/isotope/isotope.pkgd.min.js"></script>
 
     <!-- Spectrum JavaScript Files -->
@@ -84,6 +87,15 @@
         }
     });
     </script>
+    <script>
+    $(function() {
+        $.scrollify({           
+            section : ".scroll",
+        });
+    });
+    </script>
+ 
+    <script src="$ThemeDir/js/easypiechart.js"></script>
 
 </body>
 

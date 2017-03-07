@@ -1,22 +1,22 @@
-<header class="video-bg" data-stellar-background-ratio="0.5">
+<header class="video-bg scroll" data-stellar-background-ratio="0.5">
     <% include SectionOne %>
 </header>
-<section id="about" class="about-2">
+<section id="about" class="about-2 scroll">
     <% include SectionTwo %>
 </section>
-<aside class="bg-parallax-dark nopadding" style="background-image: url($ThemeDir/img/demo-bgs/faces-demo.jpg);" data-stellar-background-ratio="0.5">
+<section id="info" class="bg-parallax-dark nopadding scroll" style="background-image: url($ThemeDir/img/demo-bgs/faces-demo.jpg);" data-stellar-background-ratio="0.5">
     <% include SectionThree %>
-</aside>
-<section id="features" class="services-1">
+</section>
+<section id="features" class="services-1 scroll">
     <% include SectionFour %>    
 </section>
-<section id="work" class="portfolio-1 bg-primary" style="background-color: #$BgColor;">
+<section id="work" class="portfolio-1 bg-primary scroll" style="background-color: #$BgColor;">
     <% include SectionFive %>
 </section>
-<section id="pricing" class="pricing-1">
+<section id="pricing" class="pricing-1 scroll">
     <% include SectionSix %>
 </section>
-<section id="contact" class="contact-1 bg-parallax-dark" style="background-image: url($ThemeDir/img/wallpaper5.jpg); padding: 0;">
+<section id="contact" class="contact-1 bg-parallax-dark scroll" style="background-image: url($ThemeDir/img/wallpaper5.jpg); padding: 0;">
     <% include SectionSeven %>
 </section>
 <% include Footer %>

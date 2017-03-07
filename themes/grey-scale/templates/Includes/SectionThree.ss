@@ -1,4 +1,4 @@
-<div class="aside-overlay" style="background-color: $BgColor.CSSColor(0.9);">
+<div style="background-color: $BgColor.CSSColor(0.9);">
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-8 col-lg-offset-2">
