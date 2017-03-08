@@ -13,7 +13,7 @@ $databaseConfig = array(
 	'path' => ''
 );
 
-Director::set_environment_type('dev');
+Director::set_environment_type("dev");
 Director::setBaseURL('/freelance/');
 // Set the site locale
 i18n::set_locale('en_US');
